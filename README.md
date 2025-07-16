@@ -27,16 +27,16 @@ This project implements full ROS 2 integration and real-time control of a custom
 ## 🗂️ Project Structure
 
 6dof_arm_ws/
-├── src/
-│ └── six_dof_arm_control/
-│ ├── launch/
-│ │ └── esp32_6dof.launch.py
-│ ├── urdf/
-│ │ └── 6dof_robot.urdf
-│ ├── six_dof_arm_control/
-│ │ ├── esp32_arm_controller.py
-│ │ └── ros2_send_joint_angles.py
-│ └── README.md
+──   src/
+└──   six_dof_arm_control/
+├──   launch/
+└──   esp32_6dof.launch.py
+├──   urdf/
+└──   6dof_robot.urdf
+├──   six_dof_arm_control/
+├──   esp32_arm_controller.py
+└──   ros2_send_joint_angles.py
+└──   README.md
 
 
 ---
